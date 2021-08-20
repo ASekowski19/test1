@@ -3,9 +3,7 @@ package ver2;
 public class Account {
 	private double balance;
 	private String name;
-	public Account(double balance) {
-		this("Unknown", balance);
-	}
+	
 	public Account(String name, double balance) {
 		this.name = name;
 		this.balance = balance;
